@@ -1,0 +1,21 @@
+{
+  "name": "lodash.flatten",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/matteoantoci/lodash.flatten",
+  "author": "Matteo Antoci",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "description": "Flatten / un-flatten nested objects",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-tape-runner": "^2.0.1",
+    "tape": "^4.8.0"
+  },
+  "scripts": {
+    "test": "babel-tape-runner test.js"
+  }
+}

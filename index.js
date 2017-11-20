@@ -1,5 +1,7 @@
 import _ from 'lodash';
 
+const isNaN = (value) => Number.isNaN(Number(value));
+
 function getRootKey(__, key) {
   return isNaN(key) ? key : `[${key}]`;
 }

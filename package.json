@@ -6,7 +6,7 @@
   "author": "Matteo Antoci",
   "license": "MIT",
   "dependencies": {
-    "lodash": "^4.17.4"
+    "lodash": "^4.17.13"
   },
   "description": "Flatten / un-flatten nested objects",
   "devDependencies": {
